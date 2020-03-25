@@ -1,0 +1,56 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-image: linear-gradient(135deg, #3C8CE7 10%, #00EAFF 100%);
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+p.deskripsi {
+    word-wrap: break-word;
+}
+
+.detail-top {
+    height: 415px;
+}
+
+.detail-bottom {
+    height: 85px;
+}
+
+.login-form .form-control#email {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.login-form .form-control#password {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.register-form .form-control#nama {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.register-form .form-control#email, .register-form .form-control#password {
+    margin-bottom: -1px;
+    border-radius: 0;
+}
+
+.register-form .form-control#alamat {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
